@@ -1,39 +1,84 @@
-npm i -g vercel
+# Setting up Hugo and deploying on Vercel
 
-vercel login --github
+This guide will walk you through the process of setting up a Hugo site and deploying it on Vercel, using the sample content from the [hugo-template](https://github.com/bsidio/hugo-template) repo and the [hugo-coder](https://themes.gohugo.io/themes/hugo-coder/) theme.
 
+## Prerequisites
 
-brew install hugo
+- [Node.js](https://nodejs.org/) installed on your machine
+- [Homebrew](https://brew.sh/) installed (for macOS users)
+- A [GitHub](https://github.com/) account
 
+## Installation
 
-https://github.com/rhazdon/hugo-theme-hello-friend-ng
+1. Install the Vercel CLI globally:
+   ```
+   npm i -g vercel
+   ```
 
-git submodule add https://github.com/rhazdon/hugo-theme-hello-friend-ng.git themes/hello-friend-ng
+2. Log in to Vercel using your GitHub account:
+   ```
+   vercel login --github
+   ```
 
+3. Install Hugo using Homebrew (for macOS users):
+   ```
+   brew install hugo
+   ```
 
+## Setup
 
-https://themes.gohugo.io/themes/hugo-coder/
+1. Create a new Hugo site:
+   ```
+   hugo new site quickstart
+   ```
 
-git submodule add https://github.com/luizdepra/hugo-coder.git themes/hugo-coder
+2. Navigate to the newly created directory:
+   ```
+   cd quickstart
+   ```
 
-https://gohugo.io/getting-started/quick-start/
+3. Add the hugo-coder theme as a Git submodule:
+   ```
+   git submodule add https://github.com/luizdepra/hugo-coder.git themes/hugo-coder
+   ```
 
+4. Edit the `hugo.toml` file and set the `theme` property to `"hugo-coder"`:
+   ```toml
+   theme = 'hugo-coder'
+   ```
 
-hugo new site quickstart
+5. Create a new content file:
+   ```
+   hugo new content/about.md
+   ```
 
+6. Start the Hugo server with drafts enabled:
+   ```
+   hugo server --buildDrafts
+   ```
 
-What you need!
- hugo init
-content/about.md
+7. Open your browser and navigate to `http://localhost:1313` to see your site.
 
- hugo init
+## Deploying on Vercel
 
- 2. Create or install a theme:
-   - Create a new theme with the command "hugo new theme <THEMENAME>"
-   - Or, install a theme from https://themes.gohugo.io/
-3. Edit hugo.toml, setting the "theme" property to the theme name.
-4. Create new content with the command "hugo new content <SECTIONNAME>/<FILENAME>.<FORMAT>".
-5. Start the embedded web server with the command "hugo server --buildDrafts".
+1. Initialize your Hugo site as a Git repository:
+   ```
+   git init
+   ```
 
+2. Add and commit your changes:
+   ```
+   git add .
+   git commit -m "Initial commit"
+   ```
 
-echo "theme = 'ananke'" >> hugo.toml / theme = 'ananke'
+3. Deploy your site to Vercel:
+   ```
+   vercel
+   ```
+
+   Follow the prompts to configure your deployment settings.
+
+4. Once the deployment is complete, you'll receive a URL where your site is live.
+
+That's it! You've successfully set up a Hugo site with the hugo-coder theme and deployed it on Vercel.
