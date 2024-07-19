@@ -38,7 +38,14 @@ This guide will walk you through the process of setting up a Hugo site and deplo
    cd hugo-template
    ```
 
-3. Add the hugo-coder theme as a Git submodule:
+
+3.1 Add the hugo-coder theme as a Git submodule:
+
+   ```
+   git submodule update --init --recursive
+
+   ```
+   To add new theme
    ```
    git submodule add https://github.com/luizdepra/hugo-coder.git themes/hugo-coder
    ```
