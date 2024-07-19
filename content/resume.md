@@ -1,80 +1,72 @@
 ---
-title: "Resume"
-date: 2023-07-19
+title: "Sudheendra Sabnavisu"
+date: 2024-07-19
 draft: false
 ---
 
-# John Doe
-Computer Science Student | Northeastern University  
+# SUDHEENDRA SABNAVISU
+75 Saint Alphonsus Street, Boston, Massachusetts, 02120  
+(857) 693-9339 | sabnavisu.s@northeastern.edu  
+[GitHub](https://github.com/sudheendra21) | [LinkedIn](https://www.linkedin.com/in/Sudheendra-S)
 
-## Education
-**Bachelor of Science in Computer Science**  
-Northeastern University, Boston, MA  
-Expected Graduation: May 2024  
-GPA: 3.8/4.0
+## EDUCATION
 
-**Relevant Coursework:**
-- Data Structures and Algorithms
-- Object-Oriented Design
-- Web Development
-- Database Management Systems
-- Artificial Intelligence
+### Northeastern University
+**Masters of Science in Software Engineering**  
+*Aug 2023 – May 2025*  
+GPA: 3.5/4  
+Relevant Courses: Object Oriented Design, Networks and Cloud Computing, Web Development
 
-## Skills
-- Programming Languages: Java, Python, C++, JavaScript
-- Web Technologies: HTML, CSS, React, Node.js
-- Databases: MySQL, MongoDB
-- Tools and Frameworks: Git, Docker, AWS, Spring Boot
-- Soft Skills: Problem-solving, Communication, Teamwork, Time Management
+### Amrita School of Engineering
+**Bachelor of Technology in Computer Science and Engineering**  
+*Jul 2017 – Jun 2021*  
+Overall GPA: 3.5/4  
+Relevant Courses: Data Structures & Algorithms, Applied Mathematics, and Computer Networks.
 
-## Work Experience
-**Software Engineering Co-op**  
-ABC Technologies, Boston, MA  
-January 2023 - June 2023
-- Developed and maintained web applications using React and Node.js
-- Collaborated with cross-functional teams to implement new features and fix bugs
-- Participated in code reviews and contributed to improving the codebase
-- Assisted in the migration of legacy systems to modern technologies
+## WORK EXPERIENCE
 
-**Teaching Assistant**  
-Northeastern University, Boston, MA  
-September 2022 - December 2022
-- Assisted professors in teaching introductory computer science courses
-- Conducted lab sessions and helped students with programming assignments
-- Held office hours to provide additional support and guidance to students
+### Salesforce
+**Software Engineer**  
+*Aug 2022 – July 2023*  
+Bengaluru, India
 
-## Projects
-**Expense Tracker Web App**  
-- Developed a full-stack web application for tracking personal expenses
-- Implemented features such as user authentication, expense categorization, and data visualization
-- Technologies used: React, Node.js, Express, MongoDB
+- Developed a scalable suite of five REST APIs on Google Cloud Platform (GCP), ensuring robust data interchange and system integration.
+- Provisioned and managed infrastructure using Terraform to automate cloud resource setup, achieving consistent deployment processes for VPC, Load Balancers, CloudSQL, Object Storage, Internet Gateways, Compute Engine, CMEK, Cloud functions (Serverless)
+- Implemented CI/CD pipelines with GitHub Actions, automating the build, test, and deployment cycles to enhance development reliability and efficiency.
 
-**AI Chatbot**
-- Built a chatbot using natural language processing techniques and deep learning models
-- Trained the model on a large dataset of conversational data
-- Integrated the chatbot with a web interface for easy user interaction
-- Technologies used: Python, TensorFlow, Flask
+**Associate Software Engineer**  
+*Aug 2021 – July 2022*  
+Bengaluru, India
 
-## Leadership and Activities
-**Vice President, Computer Science Club**  
-Northeastern University  
-September 2021 - Present
-- Organize hackathons, workshops, and coding competitions for the university community
-- Collaborate with industry partners to host tech talks and networking events
+- Configured GCP Virtual Machines with custom, pre-configured images using Packer, incorporating startup scripts for automatic application initialization.
+- Enhanced system scalability and security by integrating Auto-scalers, Load balancers, and encrypting data at rest with Customer-Managed Encryption Keys (CMEK), also incorporated mail server for authentication using Mail Chimp
+- Deployed an Auto scalable infrastructure in GCP, analysis and monitoring of logs and metrics analytics in real-time
 
-**Volunteer, Local Community Center**  
-Boston, MA  
-June 2020 - August 2020
-- Taught basic computer skills to underprivileged children and seniors
-- Assisted in setting up computer labs and maintaining the equipment
+## RELEVANT PROJECTS
 
-## Awards and Certifications
-- Dean's List, Northeastern University (Fall 2021, Spring 2022, Fall 2022)
-- AWS Certified Cloud Practitioner
-- HackerRank Gold Badge in Problem Solving
+### E-Learning Platform Software
+*Spring Boot, Spring Security, Spring MVC, S3 Bucket*
 
-## Contact Information
-- Email: john.doe@example.com
-- Phone: (123) 456-7890
-- LinkedIn: [linkedin.com/in/johndoe](https://www.linkedin.com/in/johndoe)
-- GitHub: [github.com/johndoe](https://github.com/johndoe)
+- Developed an e-learning platform using Spring Boot and MVC architecture, implementing Thymeleaf for views and Spring Boot as the controller to facilitate interactive learning experiences.
+- Employed Spring Security to implement robust authentication and authorization features, ensuring secure access for admins and users.
+- Designed and implemented video upload and streaming functionality for admins, enabling users to consume educational content through a user-friendly interface.
+- Managed user registrations and session management, allowing users to enroll in courses and maintain a persistent, secure session across the platform.
+- Integrated AWS S3 for scalable and efficient video storage, optimizing content delivery and management within the application. Encrypted the bucket with CMEK
+
+### Bookverse
+*React.js, Node.js, MongoDB, ExpressJS*
+
+- Developed a full stack e-commerce application using React.js for the frontend, Node.js for the backend and Express.js for RESTful API routing and MongoDB as the Database
+- Utilized LLMs via OpenAI API to Integrate Live Chat Support into the System and designed a Recommendation System to recommend books based on the user data
+- Implemented robust RBAC (Role-Based Access Control) mechanisms to secure the application, controlling access based on user roles and privileges.
+
+## TECHNICAL SKILLS
+
+- **Languages**: Java, Python, JavaScript, HTML5, CSS, Bash, NodeJS, Express JS, NoSQL, SQL
+- **Frameworks**: Spring Boot, Hibernate, React, Apache Tomcat, Swagger, JSON, Mocha, JEST, Junit
+- **Tools**: Git/GitHub, Eclipse, IntelliJ IDEA, Jupyter Notebook, Visual Studio Code, Postman, Bruno
+- **Cloud Technologies**: AWS, GCP, Packer, Terraform, Github Actions
+
+## PUBLICATIONS
+
+- WebSecAsst - A Machine Learning Based Chrome Extension — [IEEE link]

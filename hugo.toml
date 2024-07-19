@@ -15,7 +15,7 @@ enableEmoji = true
 noClasses = false
 
 [params]
-author = "John Doe"
+author = "Sudheendra Sabnavisu"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "John Doe's personal website, a Northeastern University student"
 keywords = "blog,student,northeastern,personal"

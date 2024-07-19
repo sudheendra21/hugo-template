@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "coder-dark.css",
-	"sourceRoot": "/Users/sb/Desktop/hugo-template",
+	"sourceRoot": "/Users/sudheendrasubnavis/Desktop/workshop/hugo-template",
 	"sources": [
 		"themes/hugo-coder/assets/scss/coder-dark.scss",
 		"themes/hugo-coder/assets/scss/_variables.scss",

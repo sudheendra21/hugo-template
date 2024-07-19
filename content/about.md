@@ -1,38 +1,58 @@
 ---
-title: "About Me"
+title: "Sudheendra S"
 date: 2024-07-19
 draft: false
 ---
 
-# Hi there! I'm Alex, a Software Engineer at Northeastern University 👋
+## About Me
 
-I'm a recent graduate from Northeastern University's Khoury College of Computer Sciences, where I earned my Bachelor's degree in Computer Science with a minor in Data Science. During my time at Northeastern, I had the incredible opportunity to participate in the university's renowned co-op program, which allowed me to gain real-world experience working as a software engineer at several top-tier tech companies.
+As a software engineer and master's student in software engineering at Northeastern University, I am passionate about developing innovative and scalable solutions for complex problems. My coursework covers various topics related to front-end, back-end, and cloud technologies, such as web development, database systems, distributed computing, and software design.
 
-## My Passion for Technology 💻
+I have two years of professional experience as a software developer at Salesforce, where I worked on multiple projects involving Salesforce CRM, Apex, Visualforce, Lightning, and REST APIs. I also completed a software engineering internship at Resideo, where I developed a browser extension using machine learning and VirusTotal to detect malicious websites and files.
 
-From a young age, I've been fascinated by the power of technology to solve complex problems and improve people's lives. This passion led me to pursue a career in software engineering, where I can continuously learn and innovate while working on projects that make a meaningful impact.
+I have strong skills in object-oriented programming, Python, and Salesforce certifications. I am looking for internships or co-ops in the fields of full-stack development or cloud computing, where I can apply my knowledge and skills and learn from industry experts.
 
-## My Co-op Experience 🚀
+## Experience
 
-Throughout my time at Northeastern, I completed three six-month co-op placements:
+### Associate Technical Consultant
+**Salesforce** | Jul 2021 - Aug 2023 (2 years 2 months)  
+Bengaluru, Karnataka, India  
+Skills: Java, Data Structures
 
-1. **Software Engineering Intern at Amazon Web Services (AWS)**: I worked on the Elastic Compute Cloud (EC2) team, contributing to the development of new features and optimizations for AWS's flagship compute service.
+### Project Intern
+**Resideo** | Feb 2021 - Jun 2021 (5 months)  
+Bangalore Urban, Karnataka, India  
+Skills: Data Structures
 
-2. **Full Stack Developer at HubSpot**: As part of the Marketing Hub team, I collaborated with designers and product managers to build and maintain user-facing features for HubSpot's marketing automation platform.
+## Education
 
-3. **Machine Learning Engineer at NVIDIA**: I joined the AI Research team, where I worked on developing and implementing novel deep learning algorithms for computer vision tasks, such as object detection and semantic segmentation.
+### Northeastern University
+Master of Science - MS, Computer Software Engineering  
+Aug 2023 - Jul 2025  
+Skills: Data Structures, Java, Cloud Computing, Object-Oriented Programming (OOP), Spring Boot
 
-## My Skills and Interests 🧠
+### Birla Institute of Technology and Science, Pilani
+PGCP, AI and ML  
+Apr 2022 - Mar 2023
 
-- **Programming Languages**: Python, Java, C++, JavaScript, TypeScript
-- **Web Development**: React, Node.js, Express, HTML, CSS
-- **Databases**: SQL (PostgreSQL, MySQL), NoSQL (MongoDB, DynamoDB)
-- **Machine Learning**: TensorFlow, PyTorch, scikit-learn, Keras
-- **Cloud Computing**: AWS, Google Cloud Platform, Microsoft Azure
-- **DevOps**: Docker, Kubernetes, CI/CD pipelines, Git
+## Skills
 
-When I'm not coding, you can find me exploring the great outdoors 🌲, playing soccer with friends ⚽️, or diving into a good science fiction novel 📚.
+- Java
+- Object-Oriented Programming (OOP)
+- Cloud Computing
+- Data Structures
+- Spring Boot
+- React.js
+- TypeScript
 
-## Let's Connect! 🤝
+## Certifications
 
-I'm always eager to learn from others and collaborate on exciting projects. Feel free to reach out to me via [email](mailto:alex@example.com), [LinkedIn](https://www.linkedin.com/in/alex-example/), or [GitHub](https://github.com/alex-example). I look forward to connecting with you!
+- Salesforce Certified Platform Developer I (Mar 2022)
+- Salesforce Certified Administrator (SCA) (Dec 2021)
+
+## Publications
+
+### WebSecAsst - A Machine Learning based Chrome Extension
+IEEE | Aug 7, 2021
+
+A browser extension, also known as a plugin or an add-on, is a small software application that adds functionality to a web browser. However, security threats are always linked with such software where data can be compromised and ultimately trust is broken. The proposed research work has developed a security model named WebSecAsst, which is a chrome plugin relying on the Machine Learning model XGBoost and VirusTotal to detect malicious websites visited by the user and to detect whether the files downloaded from the internet are Malicious or Safe. During this detection, the proposed model preserves the privacy of the user's data to a greater extent than the existing commercial chrome extensions.
