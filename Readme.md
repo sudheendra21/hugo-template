@@ -7,6 +7,7 @@ This guide will walk you through the process of setting up a Hugo site and deplo
 - [Node.js](https://nodejs.org/) installed on your machine
 - [Homebrew](https://brew.sh/) installed (for macOS users)
 - A [GitHub](https://github.com/) account
+- [Git](https://git-scm.com/) installed on your machine
 
 ## Installation
 
@@ -27,14 +28,14 @@ This guide will walk you through the process of setting up a Hugo site and deplo
 
 ## Setup
 
-1. Create a new Hugo site:
+1. Clone the hugo-template repo:
    ```
-   hugo new site quickstart
+   git clone https://github.com/bsidio/hugo-template.git
    ```
 
-2. Navigate to the newly created directory:
+2. Navigate to the cloned directory:
    ```
-   cd quickstart
+   cd hugo-template
    ```
 
 3. Add the hugo-coder theme as a Git submodule:
@@ -61,7 +62,7 @@ This guide will walk you through the process of setting up a Hugo site and deplo
 
 ## Deploying on Vercel
 
-1. Initialize your Hugo site as a Git repository:
+1. Initialize your Hugo site as a Git repository (if not already done):
    ```
    git init
    ```
@@ -81,4 +82,4 @@ This guide will walk you through the process of setting up a Hugo site and deplo
 
 4. Once the deployment is complete, you'll receive a URL where your site is live.
 
-That's it! You've successfully set up a Hugo site with the hugo-coder theme and deployed it on Vercel.
+That's it! You've successfully set up a Hugo site with the hugo-coder theme and deployed it on Vercel using the sample content from the hugo-template repo.
