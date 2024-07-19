@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Expense Tracker Web App · johndoe
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="John Doe">
+<meta name="description" content="Expense Tracker Web App Link to heading Overview Link to heading The Expense Tracker Web App is a full-stack application designed to help users track and manage their personal expenses. It provides an intuitive interface for recording expenses, categorizing them, and visualizing spending patterns through charts and graphs.
+Features Link to heading User authentication and authorization Add, edit, and delete expense entries Categorize expenses into predefined categories View expenses by date range and category Interactive data visualization using charts and graphs Responsive design for seamless use across devices Technologies Used Link to heading Front-end: React: JavaScript library for building user interfaces Redux: State management library for predictable state handling Axios: Promise-based HTTP client for making API requests Chart.">
+<meta name="keywords" content="blog,student,northeastern,personal">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Expense Tracker Web App">
+  <meta name="twitter:description" content="Expense Tracker Web App Link to heading Overview Link to heading The Expense Tracker Web App is a full-stack application designed to help users track and manage their personal expenses. It provides an intuitive interface for recording expenses, categorizing them, and visualizing spending patterns through charts and graphs.
+Features Link to heading User authentication and authorization Add, edit, and delete expense entries Categorize expenses into predefined categories View expenses by date range and category Interactive data visualization using charts and graphs Responsive design for seamless use across devices Technologies Used Link to heading Front-end: React: JavaScript library for building user interfaces Redux: State management library for predictable state handling Axios: Promise-based HTTP client for making API requests Chart.">
+
+<meta property="og:url" content="http://localhost:1313/projects/expense/">
+  <meta property="og:site_name" content="johndoe">
+  <meta property="og:title" content="Expense Tracker Web App">
+  <meta property="og:description" content="Expense Tracker Web App Link to heading Overview Link to heading The Expense Tracker Web App is a full-stack application designed to help users track and manage their personal expenses. It provides an intuitive interface for recording expenses, categorizing them, and visualizing spending patterns through charts and graphs.
+Features Link to heading User authentication and authorization Add, edit, and delete expense entries Categorize expenses into predefined categories View expenses by date range and category Interactive data visualization using charts and graphs Responsive design for seamless use across devices Technologies Used Link to heading Front-end: React: JavaScript library for building user interfaces Redux: State management library for predictable state handling Axios: Promise-based HTTP client for making API requests Chart.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2023-07-19T00:00:00+00:00">
+    <meta property="article:modified_time" content="2023-07-19T00:00:00+00:00">
+    <meta property="article:tag" content="Web Development">
+    <meta property="article:tag" content="React">
+    <meta property="article:tag" content="Node.js">
+    <meta property="article:tag" content="Mongodb">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/projects/expense/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      johndoe
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/resume/">Resume</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/contact/">Contact me</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="http://localhost:1313/projects/expense/">
+          Expense Tracker Web App
+        </a>
+      </h1>
+    </header>
+
+    <h1 id="expense-tracker-web-app">
+  Expense Tracker Web App
+  <a class="heading-link" href="#expense-tracker-web-app">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p><img alt="Expense Tracker App Screenshot" src="/images/expense-tracker-screenshot.png"></p>
+<h2 id="overview">
+  Overview
+  <a class="heading-link" href="#overview">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>The Expense Tracker Web App is a full-stack application designed to help users track and manage their personal expenses. It provides an intuitive interface for recording expenses, categorizing them, and visualizing spending patterns through charts and graphs.</p>
+<h2 id="features">
+  Features
+  <a class="heading-link" href="#features">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ul>
+<li>User authentication and authorization</li>
+<li>Add, edit, and delete expense entries</li>
+<li>Categorize expenses into predefined categories</li>
+<li>View expenses by date range and category</li>
+<li>Interactive data visualization using charts and graphs</li>
+<li>Responsive design for seamless use across devices</li>
+</ul>
+<h2 id="technologies-used">
+  Technologies Used
+  <a class="heading-link" href="#technologies-used">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ul>
+<li>Front-end:
+<ul>
+<li>React: JavaScript library for building user interfaces</li>
+<li>Redux: State management library for predictable state handling</li>
+<li>Axios: Promise-based HTTP client for making API requests</li>
+<li>Chart.js: JavaScript charting library for data visualization</li>
+</ul>
+</li>
+<li>Back-end:
+<ul>
+<li>Node.js: JavaScript runtime for server-side development</li>
+<li>Express: Web application framework for building RESTful APIs</li>
+<li>MongoDB: NoSQL database for storing expense data</li>
+<li>Mongoose: Object Data Modeling (ODM) library for MongoDB and Node.js</li>
+</ul>
+</li>
+<li>Authentication:
+<ul>
+<li>JSON Web Tokens (JWT): Secure authentication mechanism for stateless communication</li>
+<li>bcrypt: Library for hashing passwords before storing them in the database</li>
+</ul>
+</li>
+</ul>
+<h2 id="project-structure">
+  Project Structure
+  <a class="heading-link" href="#project-structure">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ul>
+<li><code>client</code>: Contains the front-end React application
+<ul>
+<li><code>src/components</code>: Reusable UI components</li>
+<li><code>src/pages</code>: Individual pages of the application</li>
+<li><code>src/services</code>: API service for making HTTP requests to the back-end</li>
+<li><code>src/reducers</code>: Redux reducers for managing application state</li>
+</ul>
+</li>
+<li><code>server</code>: Contains the back-end Node.js application
+<ul>
+<li><code>config</code>: Configuration files for the server</li>
+<li><code>controllers</code>: Request handlers for different API endpoints</li>
+<li><code>models</code>: Mongoose models for interacting with the database</li>
+<li><code>routes</code>: API routes for handling HTTP requests</li>
+</ul>
+</li>
+<li><code>database</code>: Contains scripts for initializing and seeding the MongoDB database</li>
+</ul>
+<h2 id="installation-and-setup">
+  Installation and Setup
+  <a class="heading-link" href="#installation-and-setup">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ol>
+<li>Clone the repository:
+<pre tabindex="0"><code>git clone https://github.com/johndoe/expense-tracker.git
+</code></pre></li>
+<li>Navigate to the project directory:
+<pre tabindex="0"><code>cd expense-tracker
+</code></pre></li>
+<li>Install dependencies for the server:
+<pre tabindex="0"><code>cd server
+npm install
+</code></pre></li>
+<li>Install dependencies for the client:
+<pre tabindex="0"><code>cd ../client
+npm install
+</code></pre></li>
+<li>Set up the MongoDB database:
+<ul>
+<li>Install MongoDB on your system or use a cloud-based service like MongoDB Atlas</li>
+<li>Update the database connection URL in <code>server/config/db.js</code></li>
+</ul>
+</li>
+<li>Start the development server:
+<pre tabindex="0"><code>cd ../server
+npm run dev
+</code></pre></li>
+<li>Start the client application:
+<pre tabindex="0"><code>cd ../client
+npm start
+</code></pre></li>
+<li>Open your browser and visit <code>http://localhost:3000</code> to access the Expense Tracker Web App.</li>
+</ol>
+<h2 id="future-enhancements">
+  Future Enhancements
+  <a class="heading-link" href="#future-enhancements">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ul>
+<li>Implement data export functionality to download expense data as CSV or PDF</li>
+<li>Add support for multiple currencies and currency conversion</li>
+<li>Integrate with a receipt scanning API to automatically extract expense details from receipts</li>
+<li>Implement a budgeting feature to set monthly spending limits and track progress</li>
+<li>Enhance the data visualization with more advanced charts and insights</li>
+</ul>
+<h2 id="contributing">
+  Contributing
+  <a class="heading-link" href="#contributing">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Contributions to the Expense Tracker Web App are welcome! If you find any bugs or have suggestions for improvements, please open an issue on the <a href="https://github.com/johndoe/expense-tracker"  class="external-link" target="_blank" rel="noopener">GitHub repository</a>. If you&rsquo;d like to contribute code, please fork the repository and submit a pull request with your changes.</p>
+<h2 id="license">
+  License
+  <a class="heading-link" href="#license">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>This project is licensed under the MIT License. See the <a href="https://github.com/johndoe/expense-tracker/blob/main/LICENSE"  class="external-link" target="_blank" rel="noopener">LICENSE</a> file for more information.</p>
+<h2 id="contact">
+  Contact
+  <a class="heading-link" href="#contact">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>If you have any questions or inquiries about the Expense Tracker Web App, feel free to reach out:</p>
+<ul>
+<li>Email: <a href="mailto:john.doe@example.com" >john.doe@example.com</a></li>
+<li>LinkedIn: <a href="https://www.linkedin.com/in/johndoe"  class="external-link" target="_blank" rel="noopener">linkedin.com/in/johndoe</a></li>
+<li>GitHub: <a href="https://github.com/johndoe"  class="external-link" target="_blank" rel="noopener">github.com/johndoe</a></li>
+</ul>
+
+  </article>
+</section>
+
+  
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2024
+     John Doe 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+  
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>
