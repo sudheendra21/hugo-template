@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>React on johndoe</title>
-    <link>http://localhost:1313/tags/react/</link>
+    <link>http://www.example.com/tags/react/</link>
     <description>Recent content in React on johndoe</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 19 Jul 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.example.com/tags/react/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Expense Tracker Web App</title>
-      <link>http://localhost:1313/projects/expense/</link>
+      <link>http://www.example.com/projects/expense/</link>
       <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/expense/</guid>
+      <guid>http://www.example.com/projects/expense/</guid>
       <description>Expense Tracker Web App Link to heading Overview Link to heading The Expense Tracker Web App is a full-stack application designed to help users track and manage their personal expenses. It provides an intuitive interface for recording expenses, categorizing them, and visualizing spending patterns through charts and graphs.&#xA;Features Link to heading User authentication and authorization Add, edit, and delete expense entries Categorize expenses into predefined categories View expenses by date range and category Interactive data visualization using charts and graphs Responsive design for seamless use across devices Technologies Used Link to heading Front-end: React: JavaScript library for building user interfaces Redux: State management library for predictable state handling Axios: Promise-based HTTP client for making API requests Chart.</description>
     </item>
   </channel>

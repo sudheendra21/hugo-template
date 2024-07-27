@@ -2,122 +2,122 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>johndoe</title>
-    <link>http://localhost:1313/</link>
+    <link>http://www.example.com/</link>
     <description>Recent content on johndoe</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 19 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.example.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sudheendra S</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://www.example.com/about/</link>
       <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://www.example.com/about/</guid>
       <description>About Me Link to heading As a software engineer and master&amp;rsquo;s student in software engineering at Northeastern University, I am passionate about developing innovative and scalable solutions for complex problems. My coursework covers various topics related to front-end, back-end, and cloud technologies, such as web development, database systems, distributed computing, and software design.&#xA;I have two years of professional experience as a software developer at Salesforce, where I worked on multiple projects involving Salesforce CRM, Apex, Visualforce, Lightning, and REST APIs.</description>
     </item>
     <item>
       <title>Sudheendra Sabnavisu</title>
-      <link>http://localhost:1313/resume/</link>
+      <link>http://www.example.com/resume/</link>
       <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resume/</guid>
+      <guid>http://www.example.com/resume/</guid>
       <description>SUDHEENDRA SABNAVISU Link to heading 75 Saint Alphonsus Street, Boston, Massachusetts, 02120&#xA;(857) 693-9339 | sabnavisu.s@northeastern.edu&#xA;GitHub | LinkedIn&#xA;EDUCATION Link to heading Northeastern University Link to heading Masters of Science in Software Engineering&#xA;Aug 2023 – May 2025&#xA;GPA: 3.5/4&#xA;Relevant Courses: Object Oriented Design, Networks and Cloud Computing, Web Development&#xA;Amrita School of Engineering Link to heading Bachelor of Technology in Computer Science and Engineering&#xA;Jul 2017 – Jun 2021</description>
     </item>
     <item>
       <title>Expense Tracker Web App</title>
-      <link>http://localhost:1313/projects/expense/</link>
+      <link>http://www.example.com/projects/expense/</link>
       <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/expense/</guid>
+      <guid>http://www.example.com/projects/expense/</guid>
       <description>Expense Tracker Web App Link to heading Overview Link to heading The Expense Tracker Web App is a full-stack application designed to help users track and manage their personal expenses. It provides an intuitive interface for recording expenses, categorizing them, and visualizing spending patterns through charts and graphs.&#xA;Features Link to heading User authentication and authorization Add, edit, and delete expense entries Categorize expenses into predefined categories View expenses by date range and category Interactive data visualization using charts and graphs Responsive design for seamless use across devices Technologies Used Link to heading Front-end: React: JavaScript library for building user interfaces Redux: State management library for predictable state handling Axios: Promise-based HTTP client for making API requests Chart.</description>
     </item>
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>http://localhost:1313/posts/markdown-syntax/</link>
+      <link>http://www.example.com/posts/markdown-syntax/</link>
       <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/markdown-syntax/</guid>
+      <guid>http://www.example.com/posts/markdown-syntax/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rich Content</title>
-      <link>http://localhost:1313/posts/rich-content/</link>
+      <link>http://www.example.com/posts/rich-content/</link>
       <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/rich-content/</guid>
+      <guid>http://www.example.com/posts/rich-content/</guid>
       <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;&#xA;&lt;h2 id=&#34;heading&#34;&gt;&#xA;  &#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#heading&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;</description>
     </item>
     <item>
       <title>More Rich Content</title>
-      <link>http://localhost:1313/posts/more-rich-content/</link>
+      <link>http://www.example.com/posts/more-rich-content/</link>
       <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/more-rich-content/</guid>
+      <guid>http://www.example.com/posts/more-rich-content/</guid>
       <description>&lt;p&gt;Hugo Coder provides some Custom Shortcodes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;heading&#34;&gt;&#xA;  &#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#heading&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;</description>
     </item>
     <item>
       <title>Math Typesetting</title>
-      <link>http://localhost:1313/posts/math-typesetting/</link>
+      <link>http://www.example.com/posts/math-typesetting/</link>
       <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/math-typesetting/</guid>
+      <guid>http://www.example.com/posts/math-typesetting/</guid>
       <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
     </item>
     <item>
       <title>HTML and CSS only tabs</title>
-      <link>http://localhost:1313/posts/html-and-css-only-tabs/</link>
+      <link>http://www.example.com/posts/html-and-css-only-tabs/</link>
       <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/html-and-css-only-tabs/</guid>
+      <guid>http://www.example.com/posts/html-and-css-only-tabs/</guid>
       <description>Shortcodes Link to heading The following content:&#xA;{{&amp;lt; tabgroup &amp;gt;}} {{&amp;lt; tab name=&amp;#34;Hello&amp;#34; &amp;gt;}} Hello World! {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; tab name=&amp;#34;Goodbye&amp;#34; &amp;gt;}} Goodbye Everybody! {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; /tabgroup &amp;gt;}} Will generate:&#xA;Hello Hello World! Goodbye Goodbye Everybody! Right alighment Link to heading You can also align the tabs to the right:&#xA;{{&amp;lt; tabgroup align=&amp;#34;right&amp;#34; &amp;gt;}} {{&amp;lt; tab name=&amp;#34;Hello&amp;#34; &amp;gt;}} Hello World! {{&amp;lt; /tab &amp;gt;}} {{&amp;lt; tab name=&amp;#34;Goodbye&amp;#34; &amp;gt;}} Goodbye Everybody!</description>
     </item>
     <item>
       <title>Mermaid JS support</title>
-      <link>http://localhost:1313/posts/mermaid-support/</link>
+      <link>http://www.example.com/posts/mermaid-support/</link>
       <pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/mermaid-support/</guid>
+      <guid>http://www.example.com/posts/mermaid-support/</guid>
       <description>If you want to use Mermaid-JS on your website. Provide mermaid as Shortcode in your markdown file.&#xA;flowchart LR A --&gt; B B --&gt; C C --&gt; D D --&gt; B sequenceDiagram participant Alice participant Bob Alice-&gt;&gt;Bob: Hi Bob Bob-&gt;&gt;Alice: Hi Alice Find more example on Mermaid-JS website.</description>
     </item>
     <item>
       <title>Emoji Support</title>
-      <link>http://localhost:1313/posts/emoji-support/</link>
+      <link>http://www.example.com/posts/emoji-support/</link>
       <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/emoji-support/</guid>
+      <guid>http://www.example.com/posts/emoji-support/</guid>
       <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
     </item>
     <item>
       <title>External Page: Hugo Coder Wiki</title>
-      <link>http://localhost:1313/posts/hugo-coder-wiki/</link>
+      <link>http://www.example.com/posts/hugo-coder-wiki/</link>
       <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hugo-coder-wiki/</guid>
+      <guid>http://www.example.com/posts/hugo-coder-wiki/</guid>
       <description></description>
     </item>
     <item>
       <title>Placeholder Text</title>
-      <link>http://localhost:1313/posts/placeholder-text/</link>
+      <link>http://www.example.com/posts/placeholder-text/</link>
       <pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/placeholder-text/</guid>
+      <guid>http://www.example.com/posts/placeholder-text/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>temas</title>
-      <link>http://localhost:1313/categoria/temas/</link>
+      <link>http://www.example.com/categoria/temas/</link>
       <pubDate>Wed, 04 Jan 2023 23:21:18 +0100</pubDate>
-      <guid>http://localhost:1313/categoria/temas/</guid>
+      <guid>http://www.example.com/categoria/temas/</guid>
       <description></description>
     </item>
     <item>
       <title>sintaxe</title>
-      <link>http://localhost:1313/categoria/sintaxe/</link>
+      <link>http://www.example.com/categoria/sintaxe/</link>
       <pubDate>Wed, 04 Jan 2023 23:21:06 +0100</pubDate>
-      <guid>http://localhost:1313/categoria/sintaxe/</guid>
+      <guid>http://www.example.com/categoria/sintaxe/</guid>
       <description></description>
     </item>
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
+      <link>http://www.example.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
-      <description>Contact Me Link to heading Feel free to reach out to me through any of the following platforms:&#xA;Social Media Link to heading LinkedIn Twitter GitHub Instagram Facebook Email Link to heading You can also email me at: your.email@example.com</description>
+      <guid>http://www.example.com/contact/</guid>
+      <description>Follow me, @johndoe.</description>
     </item>
     <item>
       <title>Projects</title>
-      <link>http://localhost:1313/projects/projects/</link>
+      <link>http://www.example.com/projects/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/projects/</guid>
+      <guid>http://www.example.com/projects/projects/</guid>
       <description>Nothing to see here&amp;hellip; Move along!</description>
     </item>
   </channel>
